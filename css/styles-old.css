@@ -49,36 +49,7 @@
   padding-top: 120px;
   padding-bottom: 120px;
 }
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-.benefits-item {
-  display: flex;
-  gap: 24px;
-}
-.benefits-list {
-  width: calc((100% - 3 * 24px) / 4);
-}
-.benefits-item-icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 264px;
-  height: 112px;
-  border: 1px solid #8e8f99;
-  border-radius: 4px;
-  background-color: #f4f4fd;
-  margin-bottom: 8px;
-}
+
 .benefits-title-list {
   font-weight: 500;
   font-size: 20px;
@@ -158,9 +129,7 @@
   text-align: center;
   margin-bottom: 8px;
 }
-.descripion-prof {
-  text-align: center;
-}
+
 .portfolio-section {
   padding-top: 120px;
   padding-bottom: 120px;
